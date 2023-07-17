@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <title>Formulario</title>
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="main.css">
+    <a href="link"> </a>
+    <script>
+        function validateForm() {
+            var termsCheckbox = document.getElementById("terms");
+    
+            if (!termsCheckbox.checked) {
+                alert("Debe aceptar los términos y condiciones para continuar.");
+                return false;
+            }
+    
+            return true;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class ="content" >
+        <div class = "titulo">
+        <h1 class ="logo">  Proyecto ONG <span></span></h1>
+    </div>
+        <div class="contact-wrapper animated bounceInUp">
+        </div> 
+            <div class="contact-form">
+                <div class="contact-info">
+                    <br> 
+                    <h4>Sobre nosotros</h4>
+                        <p>Somos una fundación que se dedica a brindar ayuda a familias, durante la internación por tratamiento médico de sus hijos e hijas.
+                            Recibimos donaciones de todo el país tanto en dinero como en especies (alimentos, ropa, juguetes).
+                            </p> 
+                    </div>
+                    <br> 
+                <h3>Contactanos </h3>
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+                    <input type=hidden name="oid" value="00D8b0000031Mve">
+                    <input type=hidden name="retURL" value="https://winguweb.org/"> <!-- aqui va el link de la pagina que mandaria en modo de agradecimiento -->
+                    
+                    <!--  ----------------------------------------------------------------------  -->
+                    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                    <!--  these lines if you wish to test in debug mode.                          -->
+                    <!--  <input type="hidden" name="debug" value=1>                              -->
+                    <!--  <input type="hidden" name="debugEmail" value="flor3nets@gmail.com">     -->
+                    <!--  ----------------------------------------------------------------------  -->
+                    <center> 
+                        <label for="first_name">Nombre</label><input  id="first_name" maxlength="40" name="first_name" size="10" type="text" /><br> 
+                        <label for="last_name">Apellido</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+                        <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text"  required="" /><br>
+                        <label for="mobile">Telefono</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+                        <br>
+                        Tipo de donación: 
+                        <br> <select style="width: 32%;" class= "contact-form select" id="00N8b00000H1Dld" name="00N8b00000H1Dld" title="Tipo de donación"><option value="">--None--</option><option value="Alimentos">Alimentos</option>
+                        <option value="Dinero">Dinero</option>
+                        <option value="Juguetes">Juguetes</option>
+                        <option value="Ropa">Ropa</option>
+                        </select><br>
+                        <br>
+                        <label for="terms">Acepto los Términos y Condiciones</label>
+                        <input type="checkbox" id="terms" name="terms" required><br>
+                        <input type="submit" name="submit">
+                    </center>
+                    </form>          
+            </div>
+            </div>
+            
+            <div class="contact-form">
+                <center>
+                    <footer>
+                     <div>
+                    <h4>Más Información</h4>
+                    <ul>
+                        <i class="fas fa-map-marker-alt"></i> Chaco, Argentina.<br> 
+                        <i class="fas fa-phone"></i> (111) 111 111 111 <br> 
+                        <i class="fas fa-envelope-open-text"></i> proyecto@wingu.com <br>
+                    </ul>
+                </div>
+                <div class="copy">
+                            <h4> Copyright 2022&#169; Todos los derechos reservados Wingu</h4>
+                            <div class="link" href="https://winguweb.org/"> Fundación Wingu 
+                        </div>
+                        </center>
+                        </div>
+                    </footer>
+</body>
+</html>

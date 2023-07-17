@@ -1,0 +1,134 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #d4e6f1;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/838/171/non_2x/hands-concept-of-charity-and-donation-volunteer-and-community-vector.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*aqui se modifica el ancho del cuadro del formulario */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+.contact-form h3 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 20px;
+    
+}
+/*aqui se modifica el ancho del recuadro del checkbox */
+.contact-form select{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 28%;
+    
+    
+
+}
+/*aqui se modifica el ancho del recuadro del formulario */
+.contact-form input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+
+}
+
+.contact-form input[type="submit"] {
+    background-color: #1465bb ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-info {
+    background-color: #FAF9F0;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 18px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contact-info h4 {
+    margin: 0 0 20px;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li i {
+    margin-right: 15px;
+}
+
+.contact-info p {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    margin-left: 30px;
+  
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.contact-footer{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+ }
+.junto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.link{
+    text-decoration: none;
+    color: #1465bb ;
+}
